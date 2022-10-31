@@ -21,25 +21,26 @@ span {
 }
 
 .card {
-    margin: 100px auto;
+    margin: 180px auto;
     max-width: 550px;
     background-color: white;
-    border-radius: 10px;
     display: flex;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .image {
     width: 50%;
+    height: 100%;
+}
+
+.image img {
+    display: block;
+    max-width: 100%;
 }
 
 .image .mob {
     display: none;
-}
-
-.image img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
 }
 
 .text {
